@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mdxnote.financasapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity
+            android:name=".activity.CalculatorActivity"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.CadastroContaActivity">
+
+        </activity>
+        <activity android:name=".activity.DetalhesContasActivity" />
+        <activity android:name=".activity.ListaContaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

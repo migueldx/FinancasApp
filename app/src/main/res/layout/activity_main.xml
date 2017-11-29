@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Número1" />
+
+    <EditText android:id="@+id/campo_numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Número2" />
+
+    <EditText android:id="@+id/campo_numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_subtrair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button android:id="@+id/btn_somar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="+" />
+
+    <Button android:id="@+id/btn_multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="X" />
+    <Button android:id="@+id/btn_dividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="÷" />
+
+    <TextView android:id="@+id/saida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

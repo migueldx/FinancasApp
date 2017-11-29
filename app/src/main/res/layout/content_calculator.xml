@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero"
+        />
+
+    <Button
+        android:layout_below="@+id/numero"
+        android:id="@+id/sete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/sete" />
+
+    <Button
+        android:layout_below="@+id/numero"
+        android:id="@+id/oito"
+        android:layout_toRightOf="@+id/sete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/oito" />
+
+    <Button
+        android:layout_below="@+id/numero"
+        android:id="@+id/nove"
+        android:layout_toRightOf="@+id/oito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/nove" />
+
+    <Button
+        android:layout_below="@+id/sete"
+        android:id="@+id/quatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/quatro" />
+
+    <Button
+        android:layout_below="@+id/oito"
+        android:id="@+id/cinco"
+        android:layout_toRightOf="@+id/quatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/cinco" />
+
+    <Button
+        android:layout_below="@+id/nove"
+        android:id="@+id/seis"
+        android:layout_toRightOf="@+id/cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/seis" />
+
+    <Button
+        android:layout_below="@+id/quatro"
+        android:id="@+id/um"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/um" />
+
+    <Button
+        android:layout_below="@+id/cinco"
+        android:id="@+id/dois"
+        android:layout_toRightOf="@+id/um"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/dois" />
+
+    <Button
+        android:layout_below="@+id/seis"
+        android:id="@+id/tres"
+        android:layout_toRightOf="@+id/dois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/tres" />
+</RelativeLayout>
